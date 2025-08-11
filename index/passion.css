@@ -1,0 +1,47 @@
+.ph_container img{
+    width: 100px;
+    height: 100px;
+}
+
+
+header .passion_list{
+    background-color: #16243c;
+    color: white;
+}
+
+main .ph_container_text{
+    display: grid;
+    grid-template-columns: 1fr  1fr 1fr 1fr;
+    gap: 1rem;
+}
+main .ph_container_img{
+    display: grid;
+    grid-template-columns: 1fr  1fr 1fr 1fr;
+    gap: 1rem;
+}
+
+
+main .kickbox_img,
+.dune_img,
+.football_img,
+.champions_img{
+    width: 95%;
+    height: 350px;
+    border-radius: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+    main .ph_container_text{
+        display: inline;
+       
+    }
+    main .kickbox_img,
+.dune_img,
+.football_img,
+.champions_img{
+    width: 95%;
+    height: 150px;
+    border-radius: 1rem;
+}
+
+}

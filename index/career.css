@@ -1,0 +1,48 @@
+/*Start header styling*/
+header .career_list{
+    background-color: #16243c;
+    color: white;
+}
+/*End header styling*/
+
+/*Start main styling*/
+main .physic{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    align-self: start;
+}
+
+main .physic_img{
+     width: 95%;
+    height: 200px;
+    border-radius: 1rem;
+    padding: 10px;
+}
+main .cs{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    align-self: start;
+}
+
+main .cs_img{
+     width: 95%;
+    height: 200px;
+    border-radius: 1rem;
+    padding: 10px;
+}
+/*End main styling*/
+
+ @media screen and (max-width: 768px){
+    main .physic{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    align-self: start;
+}
+
+main .cs{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    align-self: start;
+}
+
+ }
