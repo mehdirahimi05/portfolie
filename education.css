@@ -1,0 +1,41 @@
+/*Start header styling*/
+header .education_list{
+    background-color: #16243c;
+    color: white;
+}
+/*End header styling*/
+
+/*Start main styling*/
+ main .education_img{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+ }
+
+ main .sixgrade_img,
+ .real_img,
+ .abi_img,
+ .uni_img{
+    width: 95%;
+    height: 400px;
+    border-radius: 1rem;
+    padding: 10px;
+ }
+ /*End main styling*/
+
+ @media screen and (max-width: 768px) {
+        main .education_img{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+        }
+         main .sixgrade_img,
+        .real_img,
+        .abi_img,
+        .uni_img{
+            width: 95%;
+            height: 200px;
+            border-radius: 1rem;
+            padding: 5px;
+        }
+
+ }
+ 
